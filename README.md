@@ -15,7 +15,7 @@ Tradisional Musik Daerah (Tramuda) merupakan Platform edukasi yang memperkenalak
 
 ## Introduction
 
-Diisi apa kira2? tolong isiin
+Kami selaku Peserta Techcomfest 2023 adalah Mahasiswa Angkatan 2023 dari Prodi Software Engineering, Institut Teknologi Telkom Purwokerto. 
 
 ## Screenshots
 
@@ -70,7 +70,7 @@ npm run start
 
 ## Feedback
 
-Jika kamu memiliki kritik atau saran silahkan hubungi kontak yang tersedia.
+Jika Anda memiliki kritik atau saran silahkan hubungi kontak yang tersedia.
 
 ## Contribution's
 
