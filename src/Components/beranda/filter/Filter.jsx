@@ -3,7 +3,7 @@ import items from "../../../source";
 import { useRef, useState } from "react";
 import DropdownCustom from "./DropdownCustom";
 
-function Filter() {
+function Filter({ setFilter }) {
   // filter asal
   const [valueAsal, setValueAsal] = useState("");
   const asal = ["Semua Daerah", ...new Set(items.map((item) => item.asal))];
@@ -49,8 +49,13 @@ function Filter() {
       </div>
       <div className="search">
         <form action="" className="form__control">
-          <input type="text" id="search" placeholder="Search..." />
-          <button>
+          <input
+            type="text"
+            id="search"
+            placeholder="Search..."
+            onChange={(e) => setFilter(e.target.value)}
+          />
+          <div className="button">
             <svg
               width="20px"
               height="20px"
@@ -65,7 +70,7 @@ function Filter() {
                 fill="#ffffff"
               />
             </svg>
-          </button>
+          </div>
         </form>
       </div>
     </div>
